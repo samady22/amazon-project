@@ -67,6 +67,7 @@ document.querySelectorAll(".js-add-to-cart").forEach((button) => {
       cartQuantity++;
     } else {
       isExist.quantity++;
+      cartQuantity++;
     }
     document.querySelector(".cart-quantity").textContent = cartQuantity;
   });
